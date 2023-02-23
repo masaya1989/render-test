@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def index():
-   return{"Hello":"日本"}
+   return{"Hello":"Japan"}
 
 @app.get("/items/{item_id}")
 def read_item(item_id:int):
